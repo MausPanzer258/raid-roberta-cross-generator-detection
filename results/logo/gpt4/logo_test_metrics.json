@@ -1,0 +1,27 @@
+{
+  "n": 390,
+  "accuracy": 0.9948717948717949,
+  "precision_ai": 0.9948717948717949,
+  "recall_ai": 0.9948717948717949,
+  "f1_ai": 0.9948717948717949,
+  "f1_macro": 0.9948717948717949,
+  "confusion_matrix_human_ai": [
+    [
+      194,
+      1
+    ],
+    [
+      1,
+      194
+    ]
+  ],
+  "roc_auc": 0.9995266272189349,
+  "mean_eval_loss": 0.04025909182976703,
+  "target_generator": "gpt4",
+  "best_epoch": 1,
+  "best_validation_f1": 0.9932659932659933,
+  "n_human": 195,
+  "n_ai": 195,
+  "train_data_count": 4878,
+  "validation_data_count": 699
+}

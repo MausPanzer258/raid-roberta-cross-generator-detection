@@ -1,0 +1,27 @@
+{
+  "n": 448,
+  "accuracy": 0.9888392857142857,
+  "precision_ai": 0.9781659388646288,
+  "recall_ai": 1.0,
+  "f1_ai": 0.9889624724061811,
+  "f1_macro": 0.9888378953453028,
+  "confusion_matrix_human_ai": [
+    [
+      219,
+      5
+    ],
+    [
+      0,
+      224
+    ]
+  ],
+  "roc_auc": 0.9979272959183674,
+  "mean_eval_loss": 0.06565921966518674,
+  "target_generator": "chatgpt",
+  "best_epoch": 2,
+  "best_validation_f1": 0.9933993399339934,
+  "n_human": 224,
+  "n_ai": 224,
+  "train_data_count": 4901,
+  "validation_data_count": 705
+}

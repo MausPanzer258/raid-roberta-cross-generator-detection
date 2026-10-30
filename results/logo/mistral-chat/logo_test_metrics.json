@@ -1,0 +1,27 @@
+{
+  "n": 414,
+  "accuracy": 0.9927536231884058,
+  "precision_ai": 0.9903846153846154,
+  "recall_ai": 0.9951690821256038,
+  "f1_ai": 0.9927710843373494,
+  "f1_macro": 0.9927535809095949,
+  "confusion_matrix_human_ai": [
+    [
+      205,
+      2
+    ],
+    [
+      1,
+      206
+    ]
+  ],
+  "roc_auc": 0.999276529207216,
+  "mean_eval_loss": 0.03416399972943159,
+  "target_generator": "mistral-chat",
+  "best_epoch": 1,
+  "best_validation_f1": 0.9901315789473685,
+  "n_human": 207,
+  "n_ai": 207,
+  "train_data_count": 4884,
+  "validation_data_count": 705
+}

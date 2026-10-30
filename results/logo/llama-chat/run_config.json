@@ -1,0 +1,43 @@
+{
+  "target_generator": "llama-chat",
+  "model_name": "FacebookAI/roberta-base",
+  "training_params": {
+    "max_length": 256,
+    "epochs": 3,
+    "batch_size": 4,
+    "eval_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "patience": 2,
+    "seed": 42
+  },
+  "source_control": "original fixed IID grouped splits",
+  "test_control": "identical original IID per-generator manifest IDs and order",
+  "data_counts": {
+    "train_total": 4867,
+    "train_human": 2799,
+    "train_ai": 2068,
+    "validation_total": 710,
+    "validation_human": 404,
+    "validation_ai": 306,
+    "test_total": 390,
+    "test_human": 195,
+    "test_ai": 195
+  },
+  "data_sha256": {
+    "iid_train.csv": "6cca809f493f5b22515577c76cd4f99740b8caca39108f412f2da315cee5bfee",
+    "iid_validation.csv": "673d18601d1024d1ad09f701cf8c5a2d6d2969797d0a6ef7be4b19ebd19fb584",
+    "iid_test.csv": "5138ecc58aaf1b48bc442aa82f044515cfc1c43da09509b905ba9fce907a72bc"
+  },
+  "iid_sha256": {
+    "iid_test_metrics.json": "8ae69485e368285a49fc84a48fdd8c19a3820728ee595826f6af1888ba583a58",
+    "iid_per_generator_metrics.csv": "25005e533b191c159dfa2f2f25e3fca44e4ddbc95bd8c8220dcfefecae9c701b",
+    "per_generator_test_manifest.csv": "78ecf2e62ba5332d0e2b6352eebd22b390cf6ace3bca96baed91c03243547d72"
+  },
+  "pytorch_version": "2.6.0+cu126",
+  "transformers_version": "4.51.3",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "best_checkpoint_rule": "validation_f1_ai"
+}

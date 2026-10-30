@@ -1,0 +1,23 @@
+{
+  "n": 1610,
+  "accuracy": 0.991304347826087,
+  "precision_ai": 0.9843937575030012,
+  "recall_ai": 0.9987819732034104,
+  "f1_ai": 0.9915356711003628,
+  "f1_macro": 0.9912978483215735,
+  "confusion_matrix_human_ai": [
+    [
+      776,
+      13
+    ],
+    [
+      1,
+      820
+    ]
+  ],
+  "roc_auc": 0.999847939620451,
+  "mean_eval_loss": 0.05354264363757434,
+  "selected_epoch": 2,
+  "best_validation_f1": 0.9962732919254659,
+  "test_data_count": 1610
+}

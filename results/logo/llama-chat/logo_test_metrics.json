@@ -1,0 +1,27 @@
+{
+  "n": 390,
+  "accuracy": 0.9974358974358974,
+  "precision_ai": 0.9948979591836735,
+  "recall_ai": 1.0,
+  "f1_ai": 0.9974424552429667,
+  "f1_macro": 0.9974358805777815,
+  "confusion_matrix_human_ai": [
+    [
+      194,
+      1
+    ],
+    [
+      0,
+      195
+    ]
+  ],
+  "roc_auc": 1.0,
+  "mean_eval_loss": 0.015224743862541355,
+  "target_generator": "llama-chat",
+  "best_epoch": 1,
+  "best_validation_f1": 0.9918962722852512,
+  "n_human": 195,
+  "n_ai": 195,
+  "train_data_count": 4867,
+  "validation_data_count": 710
+}
